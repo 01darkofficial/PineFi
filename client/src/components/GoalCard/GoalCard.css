@@ -1,0 +1,150 @@
+/* components/GoalCard/GoalCard.css */
+.goal-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.goal-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.goal-card.achieved {
+    border-left: 4px solid #48bb78;
+}
+
+.goal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.goal-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2d3748;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.active {
+    background-color: #ebf8ff;
+    color: #3182ce;
+}
+
+.status-badge.achieved {
+    background-color: #f0fff4;
+    color: #38a169;
+}
+
+.status-badge.archived {
+    background-color: #faf5ff;
+    color: #805ad5;
+}
+
+.goal-description {
+    color: #4a5568;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.progress-container {
+    margin-bottom: 1.5rem;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #edf2f7;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background-color: #4299e1;
+    transition: width 0.5s ease;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
+.progress-text span {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.goal-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #718096;
+}
+
+.meta-item span:first-child {
+    font-weight: 500;
+}
+
+.days-left {
+    background-color: #fffaf0;
+    color: #dd6b20;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+
+.goal-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.goal-actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-funds-btn {
+    background-color: #ebf8ff;
+    color: #3182ce;
+}
+
+.add-funds-btn:hover {
+    background-color: #bee3f8;
+}
+
+.edit-btn {
+    background-color: #f7fafc;
+    color: #4a5568;
+}
+
+.edit-btn:hover {
+    background-color: #edf2f7;
+}

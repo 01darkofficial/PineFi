@@ -1,0 +1,23 @@
+# ===== General System & IDE Files =====
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
+
+# ===== Environment & Secrets =====
+.env
+*.env
+.env.local
+.env*.local
+
+# ===== Dependency Directories =====
+**/node_modules/
+**/dist/      
+**/build/     
+
+# ===== SSL/TLS Certificates =====
+*.key
+*.pem
+*.crt
+*.csr

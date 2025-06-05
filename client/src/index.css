@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Tagesschrift", system-ui; */
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome/Safari/Edge */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

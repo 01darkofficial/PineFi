@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: linear-gradient(135deg,
+            #00287d 0%,
+            #000000 100%);
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.auth {
+    display: flex;
+    gap: 40px;
+    width: auto;
+}
+
+.auth button {
+    color: white;
+    padding: 5px 30px;
+    font-size: 1.1rem;
+    background: #c84444;
+    border-radius: 6px;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.auth button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background: #4f48ff;
+    transform: scale(1.05);
+}
+
+.auth button:active {
+    background: #000e79;
+}

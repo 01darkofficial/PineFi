@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16vw;
+    min-height: calc(100vh - 25px);
+    background: linear-gradient(40deg,
+            #8bb7ff 0%,
+            #ffffff 100%);
+    box-sizing: border-box;
+}
+
+.main-content {
+    flex: 1;
+}

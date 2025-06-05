@@ -1,0 +1,32 @@
+.fin-chart-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 16px; */
+}
+
+.fin-chart-container h3 {
+    /* margin-bottom: 16px; */
+    color: #2d3748;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.chart-responsive-wrapper {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .fin-chart-container {
+        padding: 8px;
+    }
+
+    .chart-responsive-wrapper {
+        min-height: 250px;
+    }
+}

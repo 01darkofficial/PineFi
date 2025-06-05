@@ -1,0 +1,85 @@
+.budget-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    /* margin-bottom: 1.5rem; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.budget-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.budget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.budget-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.budget-header span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #edf2f7;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    background-color: #4299e1;
+    transition: width 0.5s ease;
+}
+
+/* Different colors based on progress percentage */
+.progress-fill[style*="100%"],
+.progress-fill[style*="9"],
+.progress-fill[style*="8"],
+.progress-fill[style*="7"] {
+    background-color: #f56565;
+    /* red for 70%+ */
+}
+
+.progress-fill[style*="6"],
+.progress-fill[style*="5"] {
+    background-color: #ed8936;
+    /* orange for 50-69% */
+}
+
+.progress-fill[style*="4"],
+.progress-fill[style*="3"] {
+    background-color: #ecc94b;
+    /* yellow for 30-49% */
+}
+
+.progress-fill[style*="2"],
+.progress-fill[style*="1"],
+.progress-fill[style*="0"] {
+    background-color: #48bb78;
+    /* green for 0-29% */
+}
+
+.budget-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #718096;
+    margin-top: 0.5rem;
+}

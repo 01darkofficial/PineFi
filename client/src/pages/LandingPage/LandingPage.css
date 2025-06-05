@@ -1,0 +1,178 @@
+.main-sec {
+    display: flex;
+    width: 100vw;
+}
+
+.main-sec-side {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+
+.main-sec-side h1 {
+    width: 60%;
+    font-size: 4.5rem;
+}
+
+.main-sec-side p {
+    width: 60%;
+    font-size: larger;
+    color: #124537;
+
+}
+
+.main-sec-side button {
+    display: flex;
+    padding: 5px 30px;
+    font-size: 1.1rem;
+    background: #15226d;
+    border-radius: 6px;
+    width: auto;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-sec-side button a {
+    font-size: larger;
+    width: 150px;
+}
+
+.main-sec-side button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background: #692bb4;
+    transform: scale(1.1);
+}
+
+.main-sec-img {
+    width: 50vw;
+    z-index: -10;
+}
+
+.main-sec-img img {
+    filter: hue-rotate(80deg);
+}
+
+.feat-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.feat-sec-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.feat-sec-img img {
+    filter: hue-rotate(220deg);
+}
+
+.feat-sec-side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 50vw;
+}
+
+.feat-sec-side h1 {
+    font-size: 3rem;
+}
+
+.feat-sec-side ul {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 15px;
+}
+
+.feat-sec-side ul li {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.feat-sec-side ul p {
+    font-weight: 200;
+    font-size: large;
+    color: #286267;
+}
+
+.work-sec {
+    display: flex;
+    width: 100vw;
+}
+
+.work-sec-side {
+    width: 50vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    text-align: start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.work-sec-side h1 {
+    font-size: 2.5rem;
+}
+
+.work-sec-side ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.work-sec-side ul li strong {
+    color: black;
+}
+
+.work-sec-side ul li {
+    color: #286267;
+}
+
+.work-sec-img {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-sec {
+    width: 100vw;
+    padding: 50px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background-color: rgb(16, 15, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-sec h1 {
+    font-size: 2.5rem;
+}
+
+.faq-sec ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-sec ul li {
+    font-size: 1.2rem;
+    color: rgb(115, 141, 255);
+}
