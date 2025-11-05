@@ -1,4 +1,4 @@
-# 🪙 PineFi – Personal Budget Tracker
+# PineFi – Personal Budget Tracker
 
 **PineFi** is a full-stack personal finance tracker designed to help users take control of their spending habits.  
 It allows users to add, edit, and manage their daily expenses, create budgets, and visualize their financial trends through interactive charts and analytics.
